@@ -18,4 +18,7 @@ Read more [Ansible Inventory documentation](http://docs.ansible.com/ansible/late
 * Simple playbook that will check to make sure it can talk to each host via ssh.
 Read:
    * [Playbooks](http://docs.ansible.com/ansible/latest/playbooks.html)
-   * [Ececuting a Playbook](http://docs.ansible.com/ansible/latest/playbooks_intro.html#executing-a-playbook)
+   * [hosts](http://docs.ansible.com/ansible/latest/playbooks_intro.html#hosts-and-users)
+   * [tasks](http://docs.ansible.com/ansible/latest/playbooks_intro.html#tasks-list)
+   * [ping module](http://docs.ansible.com/ansible/latest/ping_module.html)
+   * [Executing a Playbook](http://docs.ansible.com/ansible/latest/playbooks_intro.html#executing-a-playbook)
