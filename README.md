@@ -7,3 +7,15 @@ Clean install directory layout.
 details at the [Ansible Configuration file link](http://docs.ansible.com/ansible/latest/intro_configuration.html)
 * Take a look at the hosts file.  This is where you can define your inventory,
 some examples are provided.  For more details see the [Ansible Inventory documentation](http://docs.ansible.com/ansible/latest/intro_inventory.html)
+
+
+#### 01/basicPlaybook
+
+Populate the inventory file and simple playbook.
+
+* Inventory, demonstrating the concept of groups, group of groups, and aliases.
+Read more [Ansible Inventory documentation](http://docs.ansible.com/ansible/latest/intro_inventory.html)
+* Simple playbook that will check to make sure it can talk to each host via ssh.
+Read:
+   * [Playbooks](http://docs.ansible.com/ansible/latest/playbooks.html)
+   * [Ececuting a Playbook](http://docs.ansible.com/ansible/latest/playbooks_intro.html#executing-a-playbook)
