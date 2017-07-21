@@ -22,3 +22,15 @@ Read:
    * [tasks](http://docs.ansible.com/ansible/latest/playbooks_intro.html#tasks-list)
    * [ping module](http://docs.ansible.com/ansible/latest/ping_module.html)
    * [Executing a Playbook](http://docs.ansible.com/ansible/latest/playbooks_intro.html#executing-a-playbook)
+
+
+#### 02/shellAndDebugTasks
+
+Use shell module, how to register(store) output from the shell
+command into a variable, and use debug module to print the values to the screen.
+
+* Run a shell command to gather disk usage and store results in a variable. Read:
+  * [shell module](http://docs.ansible.com/ansible/latest/shell_module.html)
+  * [register](http://docs.ansible.com/ansible/latest/playbooks_conditionals.html#register-variables)
+* Use the debug module to print out the variable contents in two different ways.
+  * [debug module](http://docs.ansible.com/ansible/latest/debug_module.html)

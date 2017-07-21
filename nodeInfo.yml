@@ -4,3 +4,15 @@
   tasks:
     - name: Checking ssh access
       ping:
+
+    - name: Gather local disk usage info
+      shell: "df -hl"
+      register: localFS
+
+    - debug:
+        var: localFS
+
+    - debug:
+        msg:
+          - "Local filesystem info"
+          - "{{ localFS.stdout_lines }}"
