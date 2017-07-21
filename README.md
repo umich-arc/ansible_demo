@@ -34,3 +34,10 @@ command into a variable, and use debug module to print the values to the screen.
   * [register](http://docs.ansible.com/ansible/latest/playbooks_conditionals.html#register-variables)
 * Use the debug module to print out the variable contents in two different ways.
   * [debug module](http://docs.ansible.com/ansible/latest/debug_module.html)
+
+
+#### 03/shellTaskNoChange
+
+Shell commands will always report a change even if you are just doing a directory
+listing.  Behavior can be overwritten with changed_when property.
+* [overriding the changed result](http://docs.ansible.com/ansible/latest/playbooks_error_handling.html#overriding-the-changed-result)

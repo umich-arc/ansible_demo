@@ -8,6 +8,7 @@
     - name: Gather local disk usage info
       shell: "df -hl"
       register: localFS
+      changed_when: False
 
     - debug:
         var: localFS
