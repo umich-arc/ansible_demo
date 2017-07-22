@@ -11,6 +11,7 @@
 
     - debug:
         var: localFS
+        verbosity: 1
 
     - debug:
         msg:
