@@ -4,12 +4,12 @@
   tasks:
 #  - name:  Copy a file
 #    copy:
-#      src: /opt/src/fileA.txt
+#      src: demo_files/fileA.txt
 #      dest: /opt/dest/team.txt
 #      owner: root
 #      group: root
 #      mode: 0744
-#      backup: yes
+#      backup: yes`
 
   - name: Copy multiple files, different owners,permissions, and destination
     copy:
@@ -20,5 +20,5 @@
       mode: "{{ item.mode }}"
       backup: yes
     with_items:
-      - { srcPath: '/opt/src/fileA.txt', destPath: '/opt/destA/teamA.txt' , owner: 'root' ,mode: '0644' }
-      - { srcPath: '/opt/src/fileB.txt', destPath: '/opt/destB/teamB.txt' , owner: 'centos' ,mode: '0755' }
+      - { srcPath: 'demo_files/fileA.txt', destPath: '/opt/dest/teamA.txt' , owner: 'root' ,mode: '0644' }
+      - { srcPath: 'demo_files/fileB.txt', destPath: '/opt/dest/teamB.txt' , owner: 'centos' ,mode: '0755' }
