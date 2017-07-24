@@ -4,12 +4,12 @@
   tasks:
 #  - name:  Copy a file
 #    copy:
-#      src: /opt/src/fileA.txt
+#      src: demo_files/fileA.txt
 #      dest: /opt/dest/team.txt
 #      owner: root
 #      group: root
 #      mode: 0744
-#      backup: yes
+#      backup: yes`
 
   - name: Copy multiple files
     copy:
@@ -20,5 +20,5 @@
       mode: 0744
       backup: yes
     with_items:
-      - "/opt/src/fileA.txt"
-      - "/opt/src/fileB.txt"
+      - "demo_files/fileA.txt"
+      - "demo_files/fileB.txt"
