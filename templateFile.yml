@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Deploy team template file
+    template:
+      src: team.j2
+      dest: /opt/teamColor.txt
+      owner: root
+      group: root
+      mode: '0644'
+      backup: yes

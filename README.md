@@ -59,3 +59,12 @@ Copy more than one file in a task, demonstrating the with_items feature of Ansib
 
 A continuation of standard loops (with_items) using list of hashes.
 * [standard loops](http://docs.ansible.com/ansible/latest/playbooks_loops.html#standard-loops)
+
+
+#### 07/templatesAndVars
+
+Concept of group and host variables in reference to the inventory, and how to use the template module
+to render templates as files on destination system.
+* [host variables](http://docs.ansible.com/ansible/latest/intro_inventory.html#host-variables)
+* [group variables](http://docs.ansible.com/ansible/latest/intro_inventory.html#group-variables)
+* [template module](http://docs.ansible.com/ansible/latest/template_module.html)
