@@ -1,23 +1,20 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-		- [About](#about)
-		- [Branch Names:](#branch-names)
-			- [00/cleanStart](#00cleanstart)
-			- [01/basicPlaybook](#01basicplaybook)
-			- [02/shellAndDebugTasks](#02shellanddebugtasks)
-			- [03/shellTaskNoChange](#03shelltasknochange)
-			- [04/copyFile](#04copyfile)
-			- [05/copyFileWithItems](#05copyfilewithitems)
-			- [06/copyFileWithItemsAdv](#06copyfilewithitemsadv)
-			- [07/templatesAndVars](#07templatesandvars)
-			- [08/groupAndHostVarsLayout](#08groupandhostvarslayout)
-			- [09/hostVarsOverwirte](#09hostvarsoverwirte)
-			- [10/roles](#10roles)
-			- [11/rolesTemplatesVSCopy](#11rolestemplatesvscopy)
-			- [12/rolesTemplatesJinja2Syntax](#12rolestemplatesjinja2syntax)
-			- [13/tags](#13tags)
-
-<!-- /TOC -->
+* [About](#About)
+* [Branch Names:](#Branch-names)
+	* [00/cleanStart](##### 00cleanstart)
+	* [01/basicPlaybook](#01basicplaybook)
+	* [02/shellAndDebugTasks](#02shellanddebugtasks)
+	* [03/shellTaskNoChange](#03shelltasknochange)
+	* [04/copyFile](#04copyfile)
+	* [05/copyFileWithItems](#05copyfilewithitems)
+	* [06/copyFileWithItemsAdv](#06copyfilewithitemsadv)
+	* [07/templatesAndVars](#07templatesandvars)
+	* [08/groupAndHostVarsLayout](#08groupandhostvarslayout)
+	* [09/hostVarsOverwirte](#09hostvarsoverwirte)
+	* [10/roles](#10roles)
+	* [11/rolesTemplatesVSCopy](#11rolestemplatesvscopy)
+	* [12/rolesTemplatesJinja2Syntax](#12rolestemplatesjinja2syntax)
+	* [13/tags](#13tags)
 
 ### About
 
