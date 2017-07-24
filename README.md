@@ -74,3 +74,9 @@ to render templates as files on destination system.
 
 Group/Host variables organizational layouts options.
 * [splitting out host and group specific data](http://docs.ansible.com/ansible/latest/intro_inventory.html#splitting-out-host-and-group-specific-data)
+
+
+#### 09/hostVarsOverwirte
+
+Variable overwrite concept and Variable precedence
+* [variable precedence](http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
