@@ -14,6 +14,16 @@
     group: root
     mode: 0750
 
+#- name: Copy supportStaff sudo file
+#  copy:
+#    src: DCsupportStaff
+#    dest: "/etc/sudoers.d/DCsupportStaff"
+#    owner: root
+#    group: root
+#    mode: 0440
+#    backup: yes
+#    validate: visudo -cf %s
+
 - name: Copy supportStaff sudo file
   copy:
     src: DCsupportStaff

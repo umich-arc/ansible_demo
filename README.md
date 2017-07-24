@@ -86,3 +86,9 @@ Variable overwrite concept and Variable precedence
 
 Ansible roles and structure, demonstrating a role with 3 tasks
 * [roles](http://docs.ansible.com/ansible/latest/playbooks_roles.html#roles)
+
+
+#### 11/rolesTemplatesVSCopy
+
+Choosing template over copy and how comment filter in templates makes it a better choice over copy
+* [template comment filters](http://docs.ansible.com/ansible/latest/playbooks_filters.html#comment-filter)

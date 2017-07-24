@@ -1,0 +1,10 @@
+{{ ansible_managed | comment }}
+
+# List of authorized datacenter support staff
+User_Alias DATA_CENTERS = bob, joe, dave
+
+# Commands allowed to run
+Cmnd_Alias DCSTAFF_CMDS = /usr/sbin/dmidecode, /usr/sbin/smartctl, /usr/bin/nvidia-smi, /usr/sbin/shutdown
+
+# Put it all together
+DATA_CENTERS ALL = DCSTAFF_CMDS
