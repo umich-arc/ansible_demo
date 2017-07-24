@@ -1,0 +1,25 @@
+---
+# tasks file for sudo
+
+- name: Make sure the latest version of sudo RPM is installed
+  yum:
+    name: sudo
+    state: latest
+
+- name: Make sure sudoers.d dir is available
+  file:
+    path: '/etc/sudoers.d/'
+    state: directory
+    owner: root
+    group: root
+    mode: 0750
+
+- name: Copy supportStaff sudo file
+  copy:
+    src: DCsupportStaff
+    dest: "/etc/sudoers.d/DCsupportStaff"
+    owner: root
+    group: root
+    mode: 0440
+    backup: yes
+    validate: visudo -cf %s

@@ -80,3 +80,9 @@ Group/Host variables organizational layouts options.
 
 Variable overwrite concept and Variable precedence
 * [variable precedence](http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
+
+
+#### 10/roles
+
+Ansible roles and structure, demonstrating a role with 3 tasks
+* [roles](http://docs.ansible.com/ansible/latest/playbooks_roles.html#roles)
