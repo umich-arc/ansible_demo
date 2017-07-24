@@ -92,3 +92,13 @@ Ansible roles and structure, demonstrating a role with 3 tasks
 
 Choosing template over copy and how comment filter in templates makes it a better choice over copy
 * [template comment filters](http://docs.ansible.com/ansible/latest/playbooks_filters.html#comment-filter)
+
+
+#### 12/rolesTemplatesJinja2Syntax
+
+JINJA2 syntax in combination with group_vars, demonstrating `for` loop and `if` conditional
+* [jinja: for](http://jinja.pocoo.org/docs/2.9/templates/#for)
+* [jinja: if](http://jinja.pocoo.org/docs/2.9/templates/#if)
+* Group_vars/all:
+  * [default/common](http://docs.ansible.com/ansible/latest/intro_inventory.html#default-groups)
+  * [variable example](http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-examples)
