@@ -47,3 +47,9 @@ listing.  Behavior can be overwritten with changed_when property.
 
 Playbook to copy a file demonstrating rename from src to dest and backup options.
 * [copy module](http://docs.ansible.com/ansible/latest/copy_module.html)
+
+
+#### 05/copyFileWithItems
+
+Copy more than one file in a task, demonstrating the with_items feature of Ansible
+* [standard loop](http://docs.ansible.com/ansible/latest/playbooks_loops.html#standard-loops)

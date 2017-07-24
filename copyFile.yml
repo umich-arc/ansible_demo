@@ -2,11 +2,23 @@
 - hosts: all
 
   tasks:
-  - name:  Copy a file
+#  - name:  Copy a file
+#    copy:
+#      src: /opt/src/fileA.txt
+#      dest: /opt/dest/team.txt
+#      owner: root
+#      group: root
+#      mode: 0744
+#      backup: yes
+
+  - name: Copy multiple files
     copy:
-      src: /opt/src/fileA.txt
-      dest: /opt/dest/team.txt
+      src: "{{ item }}"
+      dest: /opt/dest/
       owner: root
       group: root
       mode: 0744
       backup: yes
+    with_items:
+      - "/opt/src/fileA.txt"
+      - "/opt/src/fileB.txt"
