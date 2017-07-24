@@ -17,7 +17,9 @@
 			- [12/rolesTemplatesJinja2Syntax](#12rolestemplatesjinja2syntax)
 			- [13/tags](#13tags)
 
-<!-- /TOC -->### About
+<!-- /TOC -->
+
+### About
 
 This repo is meant to be used as part of a presentation to introduction people to Ansible.  Each branch represent a lesson, and the presenter should iterate through each branch describing each Ansible concept.  A minimum of 2 Linux systems is required for demonstrating concepts.  Talking points and links to documentation are provided in for each branch.
 
