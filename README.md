@@ -68,3 +68,9 @@ to render templates as files on destination system.
 * [host variables](http://docs.ansible.com/ansible/latest/intro_inventory.html#host-variables)
 * [group variables](http://docs.ansible.com/ansible/latest/intro_inventory.html#group-variables)
 * [template module](http://docs.ansible.com/ansible/latest/template_module.html)
+
+
+#### 08/groupAndHostVarsLayout
+
+Group/Host variables organizational layouts options.
+* [splitting out host and group specific data](http://docs.ansible.com/ansible/latest/intro_inventory.html#splitting-out-host-and-group-specific-data)
