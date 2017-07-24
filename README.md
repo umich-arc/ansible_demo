@@ -53,3 +53,9 @@ Playbook to copy a file demonstrating rename from src to dest and backup options
 
 Copy more than one file in a task, demonstrating the with_items feature of Ansible
 * [standard loop](http://docs.ansible.com/ansible/latest/playbooks_loops.html#standard-loops)
+
+
+#### 06/copyFileWithItemsAdv
+
+A continuation of standard loops (with_items) using list of hashes.
+* [standard loops](http://docs.ansible.com/ansible/latest/playbooks_loops.html#standard-loops)

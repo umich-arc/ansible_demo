@@ -11,14 +11,14 @@
 #      mode: 0744
 #      backup: yes
 
-  - name: Copy multiple files
+  - name: Copy multiple files, different owners,permissions, and destination
     copy:
-      src: "{{ item }}"
-      dest: /opt/dest/
-      owner: root
+      src: "{{ item.srcPath }}"
+      dest: "{{ item.destPath }}"
+      owner: "{{ item.owner }}"
       group: root
-      mode: 0744
+      mode: "{{ item.mode }}"
       backup: yes
     with_items:
-      - "/opt/src/fileA.txt"
-      - "/opt/src/fileB.txt"
+      - { srcPath: '/opt/src/fileA.txt', destPath: '/opt/destA/teamA.txt' , owner: 'root' ,mode: '0644' }
+      - { srcPath: '/opt/src/fileB.txt', destPath: '/opt/destB/teamB.txt' , owner: 'centos' ,mode: '0755' }
