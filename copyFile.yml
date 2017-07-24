@@ -4,7 +4,7 @@
   tasks:
   - name:  Copy a file
     copy:
-      src: /opt/src/fileA.txt
+      src: demo_files/fileA.txt
       dest: /opt/dest/team.txt
       owner: root
       group: root
