@@ -41,3 +41,9 @@ command into a variable, and use debug module to print the values to the screen.
 Shell commands will always report a change even if you are just doing a directory
 listing.  Behavior can be overwritten with changed_when property.
 * [overriding the changed result](http://docs.ansible.com/ansible/latest/playbooks_error_handling.html#overriding-the-changed-result)
+
+
+#### 04/copyFile
+
+Playbook to copy a file demonstrating rename from src to dest and backup options.
+* [copy module](http://docs.ansible.com/ansible/latest/copy_module.html)

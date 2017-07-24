@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  tasks:
+  - name:  Copy a file
+    copy:
+      src: /opt/src/fileA.txt
+      dest: /opt/dest/team.txt
+      owner: root
+      group: root
+      mode: 0744
+      backup: yes
