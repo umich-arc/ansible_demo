@@ -102,3 +102,9 @@ JINJA2 syntax in combination with group_vars, demonstrating `for` loop and `if` 
 * Group_vars/all:
   * [default/common](http://docs.ansible.com/ansible/latest/intro_inventory.html#default-groups)
   * [variable example](http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-examples)
+
+
+#### 13/tags
+
+Run specific parts of a playbook with tags.
+* [tags](http://docs.ansible.com/ansible/latest/playbooks_tags.html#tags)

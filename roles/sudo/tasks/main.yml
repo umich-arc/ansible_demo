@@ -5,6 +5,8 @@
   yum:
     name: sudo
     state: latest
+  tags:
+    - sudo_baseSetup
 
 - name: Make sure sudoers.d dir is available
   file:
@@ -13,16 +15,8 @@
     owner: root
     group: root
     mode: 0750
-
-#- name: Copy supportStaff sudo file
-#  copy:
-#    src: DCsupportStaff
-#    dest: "/etc/sudoers.d/DCsupportStaff"
-#    owner: root
-#    group: root
-#    mode: 0440
-#    backup: yes
-#    validate: visudo -cf %s
+  tags:
+    - sudo_baseSetup
 
 - name: Copy supportStaff sudo file
   copy:
@@ -33,3 +27,17 @@
     mode: 0440
     backup: yes
     validate: visudo -cf %s
+  tags:
+    - sudo_copyConfig
+
+- name: Copy supportStaff sudo file
+  copy:
+    src: DCsupportStaff
+    dest: "/etc/sudoers.d/DCsupportStaff"
+    owner: root
+    group: root
+    mode: 0440
+    backup: yes
+    validate: visudo -cf %s
+  tags:
+    - sudo_templateConfig
