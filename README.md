@@ -30,10 +30,10 @@ Use shell module, how to register(store) output from the shell
 command into a variable, and use debug module to print the values to the screen.
 
 * Run a shell command to gather disk usage and store results in a variable. Read:
-  * [shell module](http://docs.ansible.com/ansible/latest/shell_module.html)
+  * [shell module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html#ansible-collections-ansible-builtin-shell-module)
   * [register](http://docs.ansible.com/ansible/latest/playbooks_conditionals.html#register-variables)
 * Use the debug module to print out the variable contents in two different ways.
-  * [debug module](http://docs.ansible.com/ansible/latest/debug_module.html)
+  * [debug module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#ansible-collections-ansible-builtin-debug-module)
 
 
 #### 03/shellTaskNoChange
